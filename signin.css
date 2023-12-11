@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color:white;
+    --color-black:black;
+}
+:root{
+    --bg-height:120vh;
+    --bg-width:100%;
+    --alert-font:'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+body {
+    background: linear-gradient(45deg,orange,red,#ea49ea);
+    height: var(--bg-height);
+    width: var(--bg-width);
+}
+.content-box{
+    margin-top: 10px;
+    width: var(--bg-width);
+    height: var(--bg-height);
+    background-color: var(--bg-color);
+    display: flex;
+    text-align: center;
+}
+#main{
+    height: 100vh;
+    width: 30em;
+    margin-left: 30%;
+}
+.main-img{
+    padding: 25px;
+}
+[alt="npm"]{
+    height: 100px;
+    width: 150px;
+}
+.signin-box{
+    padding:40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    text-align: left;
+    height: 70vh;
+}
+#bear-img{
+    text-align: center;
+}
+[role="presentation"]{
+    width:40%;
+}
+#form-head{
+    font-family: var(--alert-font);
+    font-size: 1.5rem;
+    color: rgba(0,0,0,.7);
+    font-weight: 600;
+    margin-bottom: 15px;  
+}
+.user-inputs{
+    margin-top:20px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--alert-font);
+}
+[type=text],[type=password], button{
+    height: 38px;
+    margin: 0.5rem 0rem;
+    width:var(--bg-width);
+    border-radius: 3px;
+    border: 1px solid rgba(22, 22, 22, 0.2);
+    border-radius: 5px;
+
+}
+button{
+    color: var(--color-black);
+    background-color: rgba(0, 0, 0, 0.02);
+    border-color: rgb(232, 232, 232);
+}
+.ca{
+    display: block;
+    color:#484f59;;
+    margin: 20px;
+    text-align: center;
+    font-family: var(--alert-font);
+}

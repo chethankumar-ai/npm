@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: linear-gradient(45deg,orange,red,#ea49ea); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.nav-bar{
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ffff;
+}
+.header-bar{
+    background-color: #ffff;
+    width: 100%;
+    margin: 10px 120px 17px 0px;
+    padding: 19px 30px;
+    display: flex;
+}
